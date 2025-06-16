@@ -1,87 +1,66 @@
-# Diwali_sales_analysis
+# 🪔 Diwali Sales Analysis
 
-Project Overview
-This project analyzes Diwali sales data to uncover insights about customer purchasing patterns during the festive season. The analysis focuses on various demographic factors (gender, age group, occupation, etc.) and their relationship with sales performance.
+This project provides a comprehensive analysis of Diwali sales data using Python. The primary goal is to derive business insights from customer purchasing behavior during the Diwali festival season. This analysis can help improve marketing strategies, customer targeting, and overall sales performance.
 
-Key Features
-Data cleaning and preprocessing
+## 📊 Project Overview
 
-Exploratory Data Analysis (EDA)
+The notebook performs data cleaning, exploratory data analysis (EDA), and visualization using libraries like `pandas`, `matplotlib`, and `seaborn`. Key insights are derived related to:
 
-Visualization of sales trends
+- Gender-wise and age-wise purchasing trends
+- Occupation-based purchasing power
+- State-level performance in sales
+- Product category preferences
+- Spending behavior across various demographics
 
-Customer segmentation analysis
+## 📁 Files
 
-Purchase behavior insights
+- `Diwali_Sales_Analysis.ipynb`: The Jupyter notebook containing the complete data analysis workflow.
+- (Optional: `diwali_sales.csv`): The dataset used for analysis (not included due to file size or licensing — please include your own or add a note on how to obtain it).
 
-Technologies Used
-Python
+## 🧰 Technologies Used
 
-Pandas (Data manipulation)
+- **Python**
+- **Pandas** – for data manipulation
+- **Matplotlib & Seaborn** – for data visualization
+- **Jupyter Notebook** – for running and documenting the analysis
 
-NumPy (Numerical operations)
+## 🔍 Key Findings
 
-Matplotlib (Visualization)
+- Men spend more during Diwali compared to women.
+- Individuals aged between 26–35 were the most active buyers.
+- Working professionals and married individuals tended to spend more.
+- States like Uttar Pradesh, Maharashtra, and Karnataka contributed significantly to total sales.
 
-Seaborn (Visualization)
+## 🏁 Getting Started
 
-Dataset
-The dataset (Diwali Sales Data.csv) contains 11,239 records with 13 features including:
+### Prerequisites
 
-Customer demographics (Gender, Age, Marital Status)
+- Python installed on your system
+- Jupyter Notebook or VS Code with Jupyter support
+- Required libraries installed: `pandas`, `matplotlib`, `seaborn`
 
-Geographic information (State, Zone)
+pip install pandas matplotlib seaborn
+Running the Notebook
 
-Product details (Product Category)
+1. Clone the repository:
+   git clone https://github.com/your-username/diwali-sales-analysis.git
+   cd diwali-sales-analysis
 
-Transaction details (Orders, Amount)
 
-Analysis Highlights
-Gender Analysis
-Female customers accounted for the majority of purchases
+2. Launch Jupyter Notebook:
+   jupyter notebook
 
-Higher purchasing power among female customers compared to males
+3. Open Diwali_Sales_Analysis.ipynb and run the cells sequentially.
 
-Age Group Analysis
-Customers aged 26-35 were the most active buyers
+Future Improvements
+Incorporate more recent or real-time sales data.
 
-This age group contributed the highest sales volume
+Implement predictive models to forecast future Diwali sales.
 
-Data Cleaning Steps
-Removed irrelevant columns (Status, unnamed1)
+Integrate with dashboards using tools like Power BI or Tableau.
 
-Handled missing values
+Acknowledgments
+This project is inspired by retail analytics case studies and aims to provide a basic understanding of customer segmentation and data-driven marketing during festive seasons.
 
-Converted data types appropriately
-
-Renamed columns for clarity
-
-How to Use
-Clone this repository
-
-Install required packages: pip install pandas numpy matplotlib seaborn
-
-Run the Jupyter notebook: jupyter notebook Diwali_Sales_Analysis.ipynb
-
-*Results*
-The analysis revealed several key insights about customer behavior during Diwali sales:
-
-Top performing product categories
-
-Most profitable customer segments
-
-Geographic sales distribution
-
-Purchase patterns by occupation
-
-Future Enhancements
-Incorporate time-series analysis for sales trends
-
-Add predictive modeling for sales forecasting
-
-Include more detailed product analysis
-
-Expand demographic analysis
-
-Author
-Ayush Chechani
+Author: Ayush Chechani
+Date: May 2025
